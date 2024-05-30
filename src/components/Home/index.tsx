@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button"
+import { BG_BLUR } from "@/assets";
 
 export default function Home() {
     return (
-        <div className="h-[100vh] sm:h-[90vh] bg-[url('./src/assets/bg-blur.png')] bg-contain bg-top md:bg-right bg-no-repeat md:mx-0">
+        <div className="h-[100vh] sm:h-[90vh] bg-contain bg-top md:bg-right bg-no-repeat md:mx-0"
+        style={{ backgroundImage: `url(${BG_BLUR})` }}
+        >
             <div className="justify-center h-[54vh] md:h-[74vh] flex md:justify-between items-center flex-col md:flex-row">
                 <div className="flex flex-col ">
                     <h2 className="text-3xl font-lexend-exa sm:text-4xl font-thin opacity-45 tracking-[0.25em] md:tracking-[0.15em]">Hello, I am Vinicius</h2>

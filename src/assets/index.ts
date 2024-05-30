@@ -7,7 +7,9 @@ import Image1 from "./image-1.jpg"
 import Image2 from "./image-2.jpg"
 import Image3 from "./image-3.jpg"
 import Image4 from "./image-4.jpg"
+import BG_BLUR from "./bg-blur.png"
+import BG_STARS from "./bg-stars.png"
 import Image5 from "./image-5.jpg"
 import CV_VINICIUS from "./CV_Vinicius-Carvalho-Rosa_EN.pdf"
 
-export {Spain, English, Vinicius, Avatar, Rep, Image1, Image2, Image3, Image4, Image5, CV_VINICIUS}
+export {Spain, English, Vinicius, Avatar, Rep, Image1, Image2, Image3, Image4, Image5, BG_BLUR, BG_STARS, CV_VINICIUS}
