@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
-import { Rep } from "@/assets";
+import { BG_STARS, Rep } from "@/assets";
 
 export default function Project() {
     const cards = [
@@ -20,7 +20,7 @@ export default function Project() {
         },
     ];
     return (
-        <div id="Project" className="flex flex-col items-center  bg-bg-stars bg-contain bg-center bg-no-repeat mt-80 mx-6 md:mx-0">
+        <div id="Project" className="flex flex-col items-center bg-contain bg-center bg-no-repeat mt-80 mx-6 md:mx-0" style={{ backgroundImage: `url(${BG_STARS})` }}>
             <h1 className="font-inconsolata text-6xl sm:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-to-br from-white to-slate-600">Personal Projects</h1>
             <div className="flex flex-wrap justify-center gap-20 sm:gap-28 mt-14">
                 {cards.map((card, index) => (
